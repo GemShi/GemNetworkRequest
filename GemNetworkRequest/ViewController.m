@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import "GemNetworkManager.h"
 
+#define URL1 @"http://d.yixincao.com/interface/getdata.php"
+#define URL2 @"http://d.yixincao.com/interface/getdata.php"
+
 @interface ViewController ()
 
 @end
@@ -29,14 +32,14 @@
 -(void)requestClick
 {
 //    GemNetworkManager *manager = [[GemNetworkManager alloc]init];
-//    [manager requestBySessionWithURL:@"http://d.yixincao.com/interface/getdata.php" Interface:@"" KeyArray:@[@"act",@"type",@"page"] ValueArray:@[@"list",@"nuanwen",@"3"] NetWorkBlock:^(id response) {
+//    [manager requestBySessionWithURL:URL1 Interface:@"" KeyArray:@[@"act",@"type",@"page"] ValueArray:@[@"list",@"nuanwen",@"3"] NetWorkBlock:^(id response) {
 //
 //        NSLog(@"%@",response);
 //
 //    } GetOrPost:YES];
     
 //    GemNetworkManager *manager = [[GemNetworkManager alloc]init];
-//    [manager requestByConnectionWithURL:@"http://d.yixincao.com/interface/getdata.php" Interface:@"" KeyArray:@[@"act",@"type",@"page"] ValueArray:@[@"list",@"nuanwen",@"3"] NetWorkBlock:^(id response) {
+//    [manager requestByConnectionWithURL:URL2 Interface:@"" KeyArray:@[@"act",@"type",@"page"] ValueArray:@[@"list",@"nuanwen",@"3"] NetWorkBlock:^(id response) {
 //
 //        NSLog(@"%@",response);
 //
